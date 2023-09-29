@@ -53,7 +53,7 @@ func addition(x int, y int) int {
 }
 
 func sam(){
-	etheriuPrice := 20000
+	etheriumPrice := 20000
 	log.Print("The current price of Etherium is:", ethriumPrice)
 }
 
