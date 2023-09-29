@@ -52,7 +52,8 @@ func addition(x int, y int) int {
 	return x + y
 }
 
-func sam(){
+// dennis 500222264
+func sam() {
 	etheriumPrice := 20000
 	log.Print("The current price of Etherium is:", etheriumPrice)
 }
@@ -70,6 +71,6 @@ func main() {
 	log.Println("The maximum value is", result)
 
 	concatenat()
-
+	sam()
 	log.Println(addition(42, 13))
 }
