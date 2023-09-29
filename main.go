@@ -46,6 +46,12 @@ func concatenat() {
 	concatenated_string := s1 + s2
 	log.Println(concatenated_string)
 }
+
+// sukhneet 500224802
+func addition(x int, y int) int {
+	return x + y
+}
+
 func main() {
 	log.Println(add(42, 13))
 	log.Println(swap(5, 7))
@@ -59,4 +65,6 @@ func main() {
 	log.Println("The maximum value is", result)
 
 	concatenat()
+
+	log.Println(addition(42, 13))
 }
