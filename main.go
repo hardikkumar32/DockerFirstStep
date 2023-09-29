@@ -20,8 +20,21 @@ func printTableOf15() {
 	}
 }
 
+// Oweipadei Joshua Bayefa - 500221880
+func calculateAndPrintSum(numbers []int) int {
+	sum := 0
+	for _, num := range numbers {
+			sum += num
+	}
+	return sum
+}
+
 func main() {
 	log.Println(add(42, 13))
 	log.Println(swap(5, 7))
 	log.Println("Multiplication Table of 15:")
+
+	numbers := []int{1, 2, 3, 4, 5}
+  sum := calculateAndPrintSum(numbers)
+  log.Println("Sum:", sum)
 }
