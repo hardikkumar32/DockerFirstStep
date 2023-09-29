@@ -37,6 +37,15 @@ func max(x, y int) int {
 	return y
 }
 
+// aarti - 500224115
+func concatenat() {
+
+	s1 := "Hi "
+	s2 := "This IS Lab 2 Assignment"
+
+	concatenated_string := s1 + s2
+	log.Println(concatenated_string)
+}
 func main() {
 	log.Println(add(42, 13))
 	log.Println(swap(5, 7))
@@ -48,4 +57,6 @@ func main() {
 
 	result := max(10, 7)
 	log.Println("The maximum value is", result)
+
+	concatenat()
 }
