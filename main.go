@@ -24,9 +24,17 @@ func printTableOf15() {
 func calculateAndPrintSum(numbers []int) int {
 	sum := 0
 	for _, num := range numbers {
-			sum += num
+		sum += num
 	}
 	return sum
+}
+
+// yash kelkar - 500223746
+func max(x, y int) int {
+	if x > y {
+		return x
+	}
+	return y
 }
 
 func main() {
@@ -35,6 +43,9 @@ func main() {
 	log.Println("Multiplication Table of 15:")
 
 	numbers := []int{1, 2, 3, 4, 5}
-  sum := calculateAndPrintSum(numbers)
-  log.Println("Sum:", sum)
+	sum := calculateAndPrintSum(numbers)
+	log.Println("Sum:", sum)
+
+	result := max(10, 7)
+	log.Println("The maximum value is", result)
 }
