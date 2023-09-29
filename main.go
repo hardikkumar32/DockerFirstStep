@@ -52,6 +52,11 @@ func addition(x int, y int) int {
 	return x + y
 }
 
+func sam(){
+	etheriuPrice := 20000
+	log.Print("The current price of Etherium is:", ethriumPrice)
+}
+
 func main() {
 	log.Println(add(42, 13))
 	log.Println(swap(5, 7))
